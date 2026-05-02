@@ -1,0 +1,23 @@
+﻿  main.cpp
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsString.h(38,24): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsString.h(53,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsString.h(194,28): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsString.h(340,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsString.h(368,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsString.h(410,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\clsQueueLine.h(108,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  Project8 - Queue Line.vcxproj -> D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project8 - Queue Line\x64\Debug\Project8 - Queue Line.exe

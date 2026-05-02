@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project6\clsDynamicArray.h(83,1): warning C4715: 'clsDynamicArray<int>::GetItem': not all control paths return a value
+  Project6.vcxproj -> D:\New folder\Course 13 - Algorithms & Problem Solving Level 5\Project6\x64\Debug\Project6.exe
