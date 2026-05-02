@@ -1,0 +1,3 @@
+﻿  p33.cpp
+C:\Users\AL_HAMD\source\repos\p33\p33\p33.cpp(35,1): warning C4715: 'Grades': not all control paths return a value
+  p33.vcxproj -> C:\Users\AL_HAMD\source\repos\p33\x64\Debug\p33.exe

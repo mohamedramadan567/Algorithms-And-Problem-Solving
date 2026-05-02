@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# executables
+*.exe
+*.pdb
+
+# user files
+*.user
+*.suo

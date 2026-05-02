@@ -1,0 +1,3 @@
+﻿  p5.cpp
+C:\Users\AL_HAMD\source\repos\p5\p5\p5.cpp(32,1): warning C4715: 'IsAccepted': not all control paths return a value
+  p5.vcxproj -> C:\Users\AL_HAMD\source\repos\p5\x64\Debug\p5.exe

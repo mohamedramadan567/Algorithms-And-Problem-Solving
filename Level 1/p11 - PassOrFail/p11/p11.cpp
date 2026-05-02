@@ -1,0 +1,54 @@
+#include <iostream>
+#include<string>
+#include<algorithm>
+#include<iomanip>
+#include<cmath>
+#include<vector>
+#define ll long long
+#define MR1 ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+using namespace std;
+enum enPassFail { Pass = 1, Fail = 2 };
+void ReadNumbers(int& Num1, int& Num2, int& Num3)
+{
+    cout << "Please enter your number 1 ?" << endl;
+    cin >> Num1;
+    cout << "Please enter your number 2 ?" << endl;
+    cin >> Num2;
+    cout << "Please enter your number 3 ?" << endl;
+    cin >> Num3;
+}
+int SumOf3Numbers(int Num1, int Num2, int Num3)
+{
+    return Num1 + Num2 + Num3;
+}
+float CalculateAvarege(int Num1, int Num2, int Num3)
+{
+    return (float)SumOf3Numbers(Num1, Num2, Num3) / 3;
+}
+enPassFail CheckAvarege(float Avarege)
+{
+    if (Avarege >= 50)
+        return enPassFail::Pass;
+    else
+        return enPassFail::Fail;
+}
+void PrintResults(float Avarege)
+{
+    cout << "\nThe Avarege of 3 numbers is : " << Avarege << endl;
+    enPassFail PassFail = CheckAvarege(Avarege);
+    if (PassFail == enPassFail::Pass)
+        cout << "\nYou Passed\n";
+    else
+        cout << "\nYou Falied\n";
+}
+int main()
+{
+    //MR1;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int Num1, Num2, Num3;
+    ReadNumbers(Num1, Num2, Num3);
+    PrintResults(CalculateAvarege(Num1, Num2, Num3));
+
+    return 0;
+}
